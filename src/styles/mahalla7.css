@@ -1,0 +1,62 @@
+.container_mahalla {
+    text-align: center;
+    background-color: #0a488e;
+    padding: 20px;
+    color: white;
+    margin-top: 30px;
+  }
+  .container_mahalla p{
+    color: white;
+    font-weight: normal;
+  }
+  
+  .lines-container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 10px;
+    margin-bottom: 20px;
+  }
+  
+  .line {
+    flex: 1;
+    height: 2px;
+    background-color: white;
+  }
+  
+  .title {
+    font-size: 24px;
+    margin: 0;
+    padding: 0 10px;
+  }
+  
+  .icons-container {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    gap: 20px;
+  }
+  
+  .icon-box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 100px;
+  }
+  
+  .icon {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: white;
+    padding: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+  }
+  
+  .label {
+    margin-top: 10px;
+    font-size: 14px;
+    font-weight: bold;
+    text-align: center;
+  }
+  

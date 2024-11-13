@@ -1,0 +1,39 @@
+.banner {
+    margin-top: 140px;
+    padding: 20px;
+    background-color: #001457;
+}
+
+.banner_wrapper {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.banner_wrapper h2 {
+    font-size: 40px;
+    font-weight: 400;
+    color: white;
+}
+
+.banner_wrapper img {
+    width: 200px;
+}
+@media(max-width:700px){
+    .banner_wrapper img{
+        width: 30%;
+    }
+    .banner_wrapper h2{
+        font-size:28px;
+    }
+   
+}
+
+@media(max-width:400px){
+    .banner{
+        margin-top: 180px;
+    }
+    .banner_wrapper h2{
+        font-size:20px;
+    }
+}

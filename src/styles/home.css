@@ -1,0 +1,74 @@
+.home {
+    margin-top: 100px;
+}
+
+.home_hero {
+    background-image: url("../images/mahalla_markazi.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: rgba(0, 0, 0, 0.263) !important;
+}
+
+.hero_content h2 {
+    color: white;
+    text-align: center;
+    padding: 300px 0;
+    background-color: rgba(0, 0, 0, 0.315);
+}
+
+.home_news_top {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 50px;
+    margin-bottom: 10px;
+
+}
+
+.home_news_top button {
+    border-radius: 15px;
+    border: none;
+    background-color: #001457;
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    padding: 15px;
+    font-size: 16px;
+    font-weight: 500;
+    color: white;
+    border: 1px solid white;
+
+}
+
+.home_news_top button:hover {
+    background-color: transparent;
+    border: 1px solid black;
+    color: black;
+}
+
+.home_news_top h4 {
+    font-size: 38px;
+    font-weight: 500;
+}
+.home_news{
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+    margin-top: 30px;
+}
+@media(max-width:840px){
+    .home_news{
+       display: block;
+    }
+}
+
+@media(max-width:450px){
+    .home_news_top h4{
+        font-size: 30px;
+    }
+    .home_news_top button{
+        padding: 5px;
+        font-size: 14px;
+    }
+}

@@ -1,0 +1,20 @@
+.news_about{
+    margin-top: 150px;
+}
+.news_about img{
+width: 70%;
+height: fit-content;
+margin: 0 auto;
+display: block;
+border-radius: 20px;
+box-shadow: 2px 2px 5px black;
+margin-top: 20px;
+margin-bottom: 20px;
+}
+.news_about h2{
+    font-weight:bold;
+    font-style: italic;
+}
+.news_about p{
+    font-size: 18px;
+}

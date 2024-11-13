@@ -1,0 +1,72 @@
+.profile-card {
+    display: flex;
+    align-items: center;
+    background-color: #0a488e;
+    color: white;
+    border-radius: 10px;
+    margin-top: 40px;
+}
+
+.profile-info {
+    flex: 1;
+    padding:  20px;
+
+}
+
+.name {
+    font-size: 24px;
+    font-weight: bold;
+    margin: 0;
+}
+
+.position {
+    color: #d6d45e;
+    font-size: 18px;
+    margin: 5px 0;
+}
+
+.social-text {
+    margin-top: 10px;
+    font-size: 16px;
+
+}
+
+.social-icons {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    margin-top: 5px;
+}
+
+.icon_rais {
+    font-size: 24px;
+    color: white;
+}
+
+.profile-image  {
+    width: 250px;
+    height: 250px;
+    border-radius: 10px;
+}
+@media(max-width:650px){
+    .profile-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+}
+@media(max-width:530px){
+    .profile-card{
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .profile-info{
+        text-align: center;
+    }
+    .profile-image{
+        width: 80%;
+        height: fit-content;
+        margin-bottom: 20px;
+    }
+}

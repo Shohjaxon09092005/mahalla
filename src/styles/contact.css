@@ -1,0 +1,93 @@
+.contact_wrapper{
+    display: flex;
+    justify-content: space-between;
+    margin-top: 40px;
+}
+.contact_info form{
+    display: flex;
+    flex-direction: column;
+}
+.contact_info{
+    width: 40%;
+}
+.contact_info form .phone_contact{
+    width: 50%;
+    font-size: 23px;
+    padding: 10px 15px;
+    padding-left: 5px;
+    border: none;
+    outline: none;
+    border: 2px solid #2d6961;
+    border-left: none;
+    border-radius: 30px;
+    border-top-left-radius: 0px;
+    border-bottom-left-radius: 0px;
+    margin-left: 0;
+}
+.contact_info h3{
+    font-size: 30px;
+    font-weight: 500;
+    margin-bottom: 10px;
+}
+.contact_info form label{
+    font-size: 20px;
+    font-weight: 400;
+    margin-bottom: 10px;
+}
+.tel_div{
+    display: flex;
+    margin-bottom: 30px;
+}
+.tel_div p{
+    font-size: 23px;
+    border: 2px solid #2d6961;
+    padding: 10px 15px;
+    padding-right: 5px;
+    /* border-right: none; */
+    border-radius: 30px;
+    border-top-right-radius: 0px;
+    border-bottom-right-radius: 0px;
+    margin-right: 0;
+}
+.contact_text{
+    height: 300px;
+    resize: none;
+    outline: none;
+    padding: 10px;
+    font-size: 15px;
+    border: 2px solid #2d6961;
+    border-radius: 30px;
+    margin-bottom: 20px;
+    
+}
+.contact_info form button{
+    background-color: #597BA2;
+    color: white;
+    padding: 10px 50px;
+    width: 100%;
+    border: 1px solid #597BA2;
+    border-radius: 10px;
+    margin-top: 10px;
+    cursor: pointer;
+    font-size: 18px;
+}
+.contact_wrapper iframe{
+    width:55%;
+    border-radius: 15px;
+    border: 2px solid #2d6961;
+}
+@media(max-width:900px){
+    .contact_wrapper{
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+    .contact_info{
+        width: 90%;
+    }
+    .contact_wrapper iframe{
+        width: 90%;
+        height: 500px;
+        margin-top: 40px;
+    }
+}

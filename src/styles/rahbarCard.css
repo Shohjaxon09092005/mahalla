@@ -1,0 +1,96 @@
+.profile-card2 {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 40px;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    background-color: #fff;
+    box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+    width: 75%;
+    margin: 20px auto;
+  }
+  
+  .profile-image2 {
+    flex-shrink: 0; 
+    margin-right: 20px;
+  }
+  
+  .profile-photo2 {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    object-fit: cover;
+  }
+  
+  .profile-info2 {
+    flex-grow: 1;
+
+  }
+  
+  .profile-info2 h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: black;
+  }
+  
+  .profile-info2 p {
+    margin: 8px 0;
+    font-size: 16px;
+    color: #555;
+  }
+   
+    
+  .profile-contact2 ul {
+    list-style: none;
+    padding: 0;
+  }
+  
+  .profile-contact2 li {
+    margin-bottom: 10px;
+    font-size: 16px;
+    color: black;
+  }
+  
+  .profile-contact2 li i, .profile-contact2 a {
+    color: #0056b3;
+    margin-right: 10px;
+  }
+  
+  .profile-contact2 a {
+    text-decoration: none;
+  }
+
+  .profile-contact2 ul li{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+  }
+  @media(max-width:1100px){
+    .profile-card2{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      text-align: center;
+    }
+  }
+  @media(max-width:500px){
+    .profile-card2{
+      width: 90%;
+    }
+    .profile-info2 h2{
+      font-size: 18px;
+    }
+    .profile-info2 p{
+      font-size: 14px;
+    }
+    .profile-contact2 li{
+      font-size: 14px;
+    }
+    .profile-photo2{
+      width: 150px;
+      height: 150px;
+    }
+  }
